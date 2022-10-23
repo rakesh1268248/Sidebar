@@ -13,4 +13,4 @@ def st_ui():
   Enter_text = st.sidebar.text_input("Text to search")
         
  if __name__ == "__main__":
-    st_ui() 
+  st_ui() 
