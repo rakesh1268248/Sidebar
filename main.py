@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 def st_ui():
   st.set_page_config(layout = "wide")
   st.title("Auto Review Legal contracts - DocumentAI")  
@@ -10,5 +9,5 @@ def st_ui():
   #button=st.sidebar.button('Risk Analytics')
   Enter_text = st.sidebar.text_input("Text to search")
         
- if __name__ == "__main__":
+if __name__ == "__main__":
   st_ui() 
