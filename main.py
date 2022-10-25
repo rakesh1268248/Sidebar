@@ -12,6 +12,8 @@ def st_ui():
   Button=st.sidebar.button('content Analytics')
   #button=st.sidebar.button('Risk Analytics')
   Enter_text = st.sidebar.text_input("Text to search")
+  df = pd.DataFrame(np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],columns=['lat', 'lon'])
+  st.map(df)
         
 if __name__ == "__main__":
   st_ui() 
